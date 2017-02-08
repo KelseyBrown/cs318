@@ -1,0 +1,14 @@
+.square {
+    width:100px;
+    height:100px;
+    background-color:darkturquoise;
+    border-width: 5px;
+    border-style: outset;
+    display: inline-block;
+    border-color: transparent;
+}
+
+#highlighted {
+    border-color: darkorange;
+    
+}

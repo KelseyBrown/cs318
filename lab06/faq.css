@@ -1,0 +1,17 @@
+body {
+    background-color: azure;
+}
+
+h3 {
+    font-size: 24pt;
+    font-family: fantasy;
+    text-shadow: 4px 1px 5px #000000;
+    color:darkturquoise;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.answer {
+    font-family: sans-serif;
+    
+}
