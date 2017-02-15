@@ -1,0 +1,26 @@
+body{
+    background-image: url(farm.jpg);
+    background-repeat: no-repeat;
+}
+div{
+    background-image: url(cow-1.png);
+    background-repeat: no-repeat;
+    margin-top: 533px;
+    height: 492px;
+    text-align: right;
+   background-color: bisque;
+    color: darkgoldenrod;
+    
+    
+
+}
+h1{
+    
+ color: crimson;
+    font-size: 32pt;
+    font-weight: bold;
+}
+a{
+    
+    color: darkgoldenrod;
+}

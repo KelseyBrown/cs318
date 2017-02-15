@@ -1,0 +1,12 @@
+body {
+    background-image: url(starfield.jpg);
+    color: floralwhite;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    list-style-image: url(christmas2015fullmoon.png);
+    font-size: 16pt;
+    
+    
+}
