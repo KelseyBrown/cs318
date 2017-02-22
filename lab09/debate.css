@@ -1,0 +1,59 @@
+.blurb {
+    box-sizing: border-box;
+    Width: 90%;
+    min-height: 202px;
+    min-width: 400px;
+    box-shadow: 10px 5px 10px grey;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.right {
+    background-color: lightblue;
+    margin-left: auto;
+    background-image: url(kanye.jpg);
+    background-repeat: no-repeat;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-position: right;
+    background-size: auto 200px;
+    padding: 10px;
+    padding-right: 320px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.left {
+    background-color: lightgoldenrodyellow;
+    margin-right: auto;
+    background-image: url(tswift.jpg);
+    background-size: auto 200px;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    background-position: center left;
+    padding-left: 280px;
+    padding-top: 40px;
+
+}
+
+body {
+    margin: 0;
+}
+
+.heading {
+    height: 80px;
+    width: auto;
+    background-image: linear-gradient(to left, lightblue, lightgoldenrodyellow);
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+    font-size: 40pt;
+    color:darkblue;
+    box-shadow: inset 0 0 10px white;
+
+    
+}
