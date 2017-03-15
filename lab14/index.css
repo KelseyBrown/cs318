@@ -1,0 +1,74 @@
+* {
+    margin: 1px;
+}
+
+@media (max-width: 26em) {
+    
+}
+
+#header {
+    margin: 0;
+    padding: 10px;
+    background-color: darkcyan;
+    color: azure;
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+}
+
+main {
+    background-color: lightcyan;
+    position: absolute;
+    font-family: serif;
+
+}
+
+@media (max-width: 679px) {
+	h1 {
+		font-size: 28px;
+
+		color: pink;
+	}
+	.image {
+        width: 42%;
+		float:left;
+        padding: 10px;
+	}
+    
+    .left2 {
+        clear: both;
+    }
+    
+}
+
+
+@media (min-width: 680px) and (max-width: 1023px) {
+	h1 {
+		font-size: 28px;
+
+		color: darkseagreen;
+	}
+	.image {
+        width: 30%;
+		float:left;
+        padding: 10px;
+	}
+    
+    .left1 {
+        clear: both;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+	h1 {
+		font-size: 42px;
+
+		color: lightgreen;
+	}
+	.image {
+		width:47%;
+		float:left;
+		padding:10px;
+	}
+}
