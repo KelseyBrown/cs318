@@ -1,0 +1,111 @@
+body {
+    background: linear-gradient(to top, orange, lightyellow);
+    margin: 0;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.bar {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    text-align: center;
+    color: white;
+    font-size: 15pt;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+    right: 0;
+    top: 0;
+    position: fixed;
+    margin: 5px;
+}
+
+#seal {
+    width: 100px;
+    height: auto;
+    margin-top: 45px;
+}
+
+h1 {
+    font-family: serif;
+    font-weight: bold;
+    float: left;
+    margin-top: 150px;
+    font-size: 20pt;
+}
+
+.box1 {
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    padding: lightblue;
+    border: 5px solid black;
+    float: right;
+    margin: 10px;
+}
+
+.box1a {
+    width: 250px;
+    height: 150px;
+    background-color: lightpink;
+}
+
+.box2 {
+    width: 250px;
+    height: 150px;
+    background-color: lightpink;
+    padding: 10px;
+    border: 5px solid black;
+    float: left;
+    margin-right: 10px;
+}
+
+p {
+    position: relative;
+    padding: 5px;
+}
+
+.box3 {
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    border: 5px solid black;
+    float: right;
+    margin: 10px;
+}
+
+.box3a {
+    width: 250px;
+    height: 150px;
+    background-color: lightpink;
+    float:right;
+    margin-right: -80px;
+    margin-top: 25px;
+}
+
+@media (max-width: 26em)  {
+    .box1 {
+        width: 100%;
+        height: 150px;
+    }
+    .box1a {
+        width: 100%;
+        height: 150px;
+    }
+    .box2 {
+        width: 100%;
+        height: 150px;
+    }
+    .box3 {
+        width: 100%;
+        height: 150px;
+    }
+    .box3a {
+        width: 100%;
+        height: 150px;
+    }
+}

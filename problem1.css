@@ -1,0 +1,96 @@
+
+
+body {
+    background-color: black;
+}
+
+header {
+    color: white;
+    font-family: serif;
+    font-size: 30pt;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    color:white;
+}
+
+span {
+    color: white;
+    font-family: serif;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 10px;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-style: solid;
+    border-width: 10px;
+    border-left-color: gray;
+    border-top-color: white;
+    border-right-color: gray;
+    border-bottom-color: gray;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-style: solid;
+    border-width: 10px;
+    border-left-color: gray;
+    border-top-color: white;
+    border-right-color: gray;
+    border-bottom-color: white;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-style: solid;
+    border-width: 10px;
+    border-left-color: gray;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-style: solid;
+    border-width: 10px;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+}
+
+ol {
+    color: white;
+    display: block;
+}
+
+
+
