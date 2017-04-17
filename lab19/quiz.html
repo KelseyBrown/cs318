@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title> 
+    <link type="text/css" rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div>
+    <h1>Dream Quiz</h1>
+    <form action="https://formspree.io/browns@uwec.edu" method="post">
+        <ol>
+        <li><label>When did this dream occur?</label>
+            <input id="name" type="text" size="20" name="name"></li><br>
+        <li><label class="question">How much has this dream affected your sleep?</label>
+            <ul class="answers">
+                <input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Not at all</label><br/>
+                <input type="radio" name="q1" value="b" id="q1b"><label for="q1b">A little</label><br/>
+                <input type="radio" name="q1" value="c" id="q1c"><label for="q1c">A lot</label><br/>
+                <input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Unsure</label><br/>
+            </ul> 
+        </li>
+        <li><label class="question">What themes occured in the dream?</label>
+            <ul class="answers">
+                <input type="checkbox" name="q1" value="a" id="q1a"><label for="q1a">Could not run</label><br/>
+                <input type="checkbox" name="q1" value="b" id="q1b"><label for="q1b">Teeth falling out</label><br/>
+                <input type="checkbox" name="q1" value="c" id="q1c"><label for="q1c">Brakes on car malfunction</label><br/>
+                <input type="checkbox" name="q1" value="d" id="q1d"><label for="q1d">Other</label><br/>
+            </ul> 
+        </li>
+        <li>
+            <label>Describe your dream:</label><br>
+            <textarea rows="8" cols="60" id="box" name="comment" form="usrform" ></textarea>
+        </li>
+        <li>
+            This dream has occured <input id="name" type="text" size="5" name="name"> times.
+        </li>
+        <li>I would like someone to interpret this dream <br>
+            <input type="radio" id="true"><label for="true">True</label><br>
+            <input type="radio" id="true"><label for="false">False</label>
+        </li>
+        </ol>
+        <input type="submit" value="Submit" id="button">
+    </form>
+    </div>
+</body>
+</html>
