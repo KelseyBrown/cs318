@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+header {
+    height: 60px;
+    background-color: #666062;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+}
+
+h2 {
+    padding: 18px;
+    font-size: 15pt;
+}
+
+nav {
+    display: block:
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+    font-size: 10pt;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #4ebcd3;
+    color: white;
+}
+
+input {
+    padding: 5px;
+    font-size: 15pt;
+    margin: 10px;
+}
+
+textarea {
+    margin: 10px;
+}
+
+label {
+    width: 250px;
+    float: left;
+    clear: left;
+    text-align: right;
+    margin: 10px;
+    font-size: 15pt;
+}
+
+#button {
+    margin-left: 740px;
+    
+}
+
+li:hover {
+    color: white; 
+    text-decoration:none; 
+    cursor:pointer;  
+    background-color: grey;
+}
+
+body {
+    background-color: azure;
+}
+
+p {
+    margin-left: 180px;
+    margin-top: 10px;
+    width: 600px;
+}
+
+#map {
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+#cru {
+    margin-bottom: -5px;
+    width: 100%;
+}
+
+h1 {
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: #666062;
+    height: 50px;
+    margin-top: 15px;
+}
+
+div {
+    color: white;
+    top: 5px;
+    margin-left: 180;
+    margin-top: 10px;
+    
+}
+#tw {
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 7px;
+}
+
+#fb {
+    width: 35px;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+#conf {
+    width: 600px;
+    margin-left: 180px;
+    
+}
+
+#sm {
+    width: 600px;
+    margin-left: 180px;
+}
+
+@media (max-width: 30em) {
+    ul {
+        width: 100%;
+    }
+    div {
+        visibility: hidden;
+    }
+    h1 {
+        text-align: left;
+        margin: 10px;
+    }
+    
+    h2 {
+        margin-left: 30%;
+    }
+    #cru {
+        width: 100%
+        height: auto;
+    }
+    p { 
+        width: 80%;
+        margin: 10px;
+    }
+    
+    #sm {
+        display: none;
+    }
+    
+    #conf {
+        display: none;
+    }
+    
+    #map {
+        width: 100%;
+        margin: 20px;
+    }
+    
+    nav {
+        display: block;
+        width: 100%;
+    }
+    
+    li { 
+        width: 100%;
+    }
+    form {
+        display: none;
+    }
+    span {
+        display: none;
+    }
+}
