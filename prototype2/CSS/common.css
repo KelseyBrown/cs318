@@ -88,16 +88,16 @@ body {
 }
 
 p {
-    margin-left: 180px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
-    width: 600px;
+    width: 70%;
 }
 
 #map {
-    width: 500px;
-    height: auto;
+    width: 50%;
     margin-top: 20px;
-    margin-left: 180px;
+    margin-left: 20%;
 }
 
 #cru {
@@ -138,14 +138,14 @@ div {
 }
 
 #conf {
-    width: 600px;
-    margin-left: 180px;
+    width: 70%;
+    margin-left: 15%;
     
 }
 
 #sm {
-    width: 600px;
-    margin-left: 180px;
+    width: 70%;
+    margin-left: 15%;
 }
 
 @media (max-width: 30em) {
